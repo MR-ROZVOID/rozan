@@ -408,9 +408,9 @@ if __name__ == "__main__":
             else:
                 print("No new tab opened.")
 
-            print("Process completed successfully. Closing browser and moving to next account...")
-            if driver:
-                driver.quit()
+            print("Process completed successfully. Keeping browser open and moving to next account...")
+            # if driver:
+            #     driver.quit()
             time.sleep(2)
 
         except Exception as e:
