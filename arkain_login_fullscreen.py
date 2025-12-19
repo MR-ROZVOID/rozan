@@ -362,6 +362,8 @@ if __name__ == "__main__":
                                 time.sleep(15) # Wait for page reload
 
                             if step3_found_officially:
+                                pyautogui.click(1279, 696)
+				                time.sleep(3)
                                 print("Executing terminal commands...")
                                 commands = [
                                     "cd ~",
@@ -421,3 +423,4 @@ if __name__ == "__main__":
                 pass
             print("Restarting in 5 seconds...")
             time.sleep(5)
+
